@@ -1,0 +1,25 @@
+[Eth]
+NetworkId = 34504
+SyncMode = "full"
+
+[Node]
+HTTPHost = "localhost"
+HTTPPort = 3545
+HTTPVirtualHosts = ["localhost"]
+HTTPModules = ["personal", "eth", "net", "web3", "admin", "miner", "txpool", "debug"]
+AuthAddr = "localhost"
+AuthPort = 8551
+AuthVirtualHosts = ["localhost"]
+WSHost = "localhost"
+WSPort = 3546
+WSModules = ["personal", "eth", "net", "web3", "admin", "miner", "txpool", "debug"]
+GraphQLVirtualHosts = ["localhost"]
+
+
+[Node.P2P]
+MaxPeers = 200
+NoDiscovery = false
+BootstrapNodes = ["enode://43a009048d80b17843d21db41f42fd8870621785ae87cc4f2dfcfe27a9deaf86205607a276ed43998a0b61ba0c491e4051e9d484f81d5945194a967ca943e096@202.143.109.121:40606"]
+StaticNodes = ["enr:-J24QBlq1LxZGxiu7L3QohCXLDMEgNOVfnLrR3GA-eyh35ljA8OJ4aXCPdsGzPUDvnEAqDcJep3TpM69foxKwepNWj6GAZDOQ1Tag2V0aMfGhDyBY1-AgmlkgnY0gmlwhH8AAAGJc2VjcDI1NmsxoQJ0Dn9hpjB9z7Ekib9MK9xHpNONzZ5Be4rcdgPM7uH13YN0Y3CCnp2DdWRwgp6d", "enr:-J24QL18zMoEtBYkqPW6WLrZUqmk-v3SILVpDDJk8BNcY5inM65HIO0xL6Yg2vFrzOyX84JQ3Nb83FCqidvLvL97Y3iGAZDOQ3Cog2V0aMfGhDyBY1-AgmlkgnY0gmlwhH8AAAGJc2VjcDI1NmsxoQJ60VYQvRwooymXkwZVs_pQP-EM3tT-t4_hyJCFV5FLmoN0Y3CCnp2DdWRwgp6d"]
+TrustedNodes = []
+ListenAddr = ":40605"
